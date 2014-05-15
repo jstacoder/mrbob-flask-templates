@@ -1,0 +1,1 @@
+/root/projects/github/mrbob-flask-templates/mrbob_flask/common/manage.py

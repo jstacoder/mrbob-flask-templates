@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        {% block css_head %}{% endblock css_head %}
+        {% block js_head %}{% endblock js_head %}
+        {% if title %}
+            <title>{{ title }}</title>
+        {% endif %}
+    </head>
+    <body>
+        <header>
+            {% include 'includes/_header.html' %}
+        </header>
+        <div class="wrapper">
+            <div>
+                {% block body %}{% endblock body %}
+                {% block content %}{% endblock content %}
+            </div>
+        </div>
+        <footer>
+            {% include 'includes/_footer.html' %}
+        </footer>
+    </body>
+</html>
+
+
+        
