@@ -4,10 +4,10 @@ def get_long_description():
     return open('README.rst','r').read()
 
 config = {
-    'name':{{{ app.name }}},
-    'version':{{{ app.version }}},
-    'author':{{{ app.author.name }}},
-    'author_email':{{{ app.author.email }}},
+    'name':'{{{ project.name }}}',
+    'version':'{{{ project.version }}}',
+    'author':'{{{ author.name }}}',
+    'author_email':'{{{ author.email }}}',
     'packages': find_packages(),
     'include_package_data': True,
     'description': {{{ app.description }}},
