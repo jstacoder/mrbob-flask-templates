@@ -5,7 +5,7 @@ def get_long_description():
 
 config = {
     'name':'mrbob_flask',
-    'version':'0.6.0',
+    'version':'0.6.1',
     'author':'Kyle Roux',
     'author_email':'kyle@level2designs.com',
     'packages': find_packages(),
